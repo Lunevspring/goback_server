@@ -3,8 +3,9 @@ http:
   auth_port: "8020"
 
 db:
-  username: "root"
-  database: "form-constructor-db"
-  host: "localhost"
-  port: "5436"
+  username: "postgres"
+  database: "constructordb"
+  host: "postgres"
+  port: "5432"
   ssl_mode: "disable"
+  #192.169.88.156

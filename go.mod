@@ -3,6 +3,7 @@ module github.com/spitfireooo/form-constructor-server-v2
 go 1.23.4
 
 require (
+	github.com/go-playground/validator/v10 v10.25.0
 	github.com/gofiber/contrib/swagger v1.2.0
 	github.com/gofiber/fiber/v2 v2.52.6
 	github.com/google/uuid v1.6.0
@@ -31,7 +32,6 @@ require (
 	github.com/go-openapi/validate v0.22.3 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.25.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
